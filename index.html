@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>松山市の子ども水泳教室・スイミング｜A.P.S. Kids</title>
+<meta name="description" content="愛媛県松山市の子ども水泳教室「A.P.S. Kids」。幼児・小学生を少人数制で指導し、水慣れから4泳法まで丁寧に教えます。通う日や月の回数を選べるので、スイミングスクールの進級テスト対策にも。大人の水泳教室・選手コースもあります。">
+<!-- LINEなどでURLを共有したときの表示 -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="松山市の子ども水泳教室・スイミング｜A.P.S. Kids">
+<meta property="og:description" content="愛媛県松山市の子ども水泳教室「A.P.S. Kids」。幼児・小学生を少人数制で指導し、水慣れから4泳法まで丁寧に教えます。通う日や月の回数を選べるので、スイミングスクールの進級テスト対策にも。大人の水泳教室・選手コースもあります。">
+<meta property="og:locale" content="ja_JP">
+<!-- 検索エンジン向けのチーム情報（住所・練習場所は載せない） -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SportsOrganization","name":"A.P.S.","alternateName":["エー・ピー・エス","A.P.S. Kids"],"sport":"Swimming","description":"愛媛県松山市の子ども水泳教室「A.P.S. Kids」。幼児・小学生を少人数制で指導し、水慣れから4泳法まで丁寧に教えます。通う日や月の回数を選べるので、スイミングスクールの進級テスト対策にも。大人の水泳教室・選手コースもあります。","areaServed":{"@type":"City","name":"愛媛県松山市"}}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0c3d5e;
+  --deep:#0a5b8a;
+  --blue:#1588c4;
+  --aqua:#33c3d6;
+  --foam:#e6f7fa;
+  --sand:#f7fbfc;
+  --ink:#1d3445;
+  --muted:#5b7384;
+  --line:#06c755;
+  --radius:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"Noto Sans JP",system-ui,sans-serif;
+  color:var(--ink);background:var(--sand);
+  line-height:1.85;font-size:16px;
+  -webkit-text-size-adjust:100%;
+  overflow-x:hidden;
+}
+img{display:block;max-width:100%}
+/* ロゴは幅だけ指定し、高さは常に自動（縦横比を変えない） */
+.logo{height:auto !important}
+h1,h2,h3,.round{font-family:"M PLUS Rounded 1c","Noto Sans JP",sans-serif}
+a{color:inherit}
+
+/* ---------- header ---------- */
+.site-header{
+  position:fixed;inset:0 0 auto 0;z-index:20;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 16px;
+  background:rgba(255,255,255,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(12,61,94,.08);
+}
+.site-header .logo{width:78px}
+.header-cta{
+  font-size:13px;font-weight:700;text-decoration:none;
+  background:var(--line);color:#fff;border-radius:999px;padding:7px 14px;
+}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;overflow:hidden;
+  min-height:100svh;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:110px 20px 120px;
+  color:#fff;
+  background:
+    radial-gradient(120% 60% at 80% 10%, rgba(255,255,255,.25), transparent 60%),
+    linear-gradient(170deg,#4fd3e0 0%,#1aa0d2 38%,#0a6aa3 72%,#0c3d5e 100%);
+}
+/* 水面のゆらめき */
+.hero::before{
+  content:"";position:absolute;inset:-20%;
+  background:
+    repeating-radial-gradient(circle at 30% 20%, rgba(255,255,255,.10) 0 2px, transparent 3px 40px),
+    repeating-radial-gradient(circle at 70% 60%, rgba(255,255,255,.08) 0 2px, transparent 3px 55px);
+  animation:shimmer 14s ease-in-out infinite alternate;
+}
+@keyframes shimmer{to{transform:translate(4%,3%) rotate(3deg)}}
+/* プールのコースロープ風ライン */
+.lanes{position:absolute;inset:0;pointer-events:none;opacity:.22}
+.lanes span{
+  position:absolute;left:-10%;right:-10%;height:6px;
+  background:repeating-linear-gradient(90deg,#fff 0 14px,transparent 14px 22px);
+  transform:rotate(-8deg);
+}
+.lanes span:nth-child(1){top:22%}
+.lanes span:nth-child(2){top:46%}
+.lanes span:nth-child(3){top:70%}
+
+.hero-logo{
+  position:absolute;
+  width:84vw;
+  left:8vw;top:13%;
+  transform:rotate(-9deg);
+  opacity:.95;
+  filter:drop-shadow(0 10px 30px rgba(0,40,70,.25));
+}
+.hero-text{position:relative;max-width:640px}
+.eyebrow{
+  display:inline-block;font-size:12px;letter-spacing:.18em;font-weight:700;
+  background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);
+  padding:4px 12px;border-radius:999px;margin-bottom:16px;
+}
+.hero h1{
+  font-size:clamp(30px,8.6vw,54px);line-height:1.35;font-weight:800;
+  text-shadow:0 2px 18px rgba(0,40,70,.25);
+}
+.hero p.lead{margin-top:14px;font-size:15px;opacity:.95}
+.scroll-btn{
+  display:inline-flex;align-items:center;gap:8px;margin-top:26px;
+  background:#fff;color:var(--deep);text-decoration:none;font-weight:700;
+  padding:13px 22px;border-radius:999px;box-shadow:0 8px 24px rgba(0,40,70,.2);
+}
+.wave{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:70px}
+
+/* ---------- section common ---------- */
+section{padding:72px 20px}
+.wrap{max-width:880px;margin:0 auto}
+.label{
+  font-size:12px;letter-spacing:.2em;font-weight:700;color:var(--blue);
+  display:flex;align-items:center;gap:10px;margin-bottom:8px;
+}
+.label::before{content:"";width:22px;height:3px;border-radius:3px;background:var(--aqua)}
+h2{font-size:clamp(24px,6.4vw,34px);line-height:1.45;color:var(--navy);margin-bottom:20px}
+
+/* ---------- about ---------- */
+.about{background:#fff;position:relative;overflow:hidden}
+.about .bg-logo{
+  position:absolute;width:520px;right:-170px;bottom:-40px;
+  transform:rotate(12deg);opacity:.06;pointer-events:none;
+}
+.about-head{position:relative;max-width:640px}
+.nowrap{display:inline-block}
+.about-lead{font-size:15.5px}
+@media (min-width:768px){.about-lead{font-size:16px}}
+p,h2,h3{text-wrap:pretty}
+.kids-name{font-size:14px;color:var(--muted);margin-bottom:4px}
+.kids-name b{color:var(--deep);font-size:16px}
+.about p{color:var(--ink)}
+.about strong{color:var(--deep);background:linear-gradient(transparent 62%,#c9f0f5 62%)}
+.features{position:relative;display:grid;gap:16px;margin-top:32px}
+.feature{
+  background:var(--foam);border-radius:var(--radius);padding:24px 20px 22px;position:relative;
+}
+.feature .num{
+  font-family:"M PLUS Rounded 1c",sans-serif;font-weight:800;font-size:13px;letter-spacing:.1em;
+  color:#fff;background:linear-gradient(160deg,var(--aqua),var(--blue));
+  display:inline-block;padding:2px 12px;border-radius:999px;margin-bottom:10px;
+}
+.feature h3{font-size:19px;line-height:1.5;color:var(--navy);margin-bottom:8px}
+.feature p{font-size:14.5px;line-height:1.85}
+.feature p.small{font-size:13px;color:var(--muted);margin-top:10px}
+.steps{list-style:none;margin-top:14px;display:grid;gap:8px;counter-reset:st}
+.steps li{
+  counter-increment:st;display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  background:#fff;border-radius:12px;padding:10px 14px;
+}
+.steps li::before{
+  content:counter(st);flex:none;width:26px;height:26px;border-radius:50%;
+  display:grid;place-items:center;font-size:13px;font-weight:700;color:#fff;background:var(--blue);
+}
+.steps b{color:var(--navy);font-size:15px}
+.steps span{font-size:12.5px;color:var(--muted)}
+.path{display:flex;align-items:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+.path span{
+  background:#fff;color:var(--deep);font-weight:700;font-size:14px;
+  padding:6px 16px;border-radius:999px;box-shadow:0 2px 8px rgba(12,61,94,.08);
+}
+.path span:first-child{background:var(--blue);color:#fff}
+.path i{font-style:normal;color:var(--blue);font-weight:700}
+
+/* ---------- courses ---------- */
+.courses{background:var(--foam)}
+.course-list{display:grid;gap:18px;margin-top:8px}
+.course{
+  background:#fff;border-radius:var(--radius);overflow:hidden;
+  box-shadow:0 6px 24px rgba(12,61,94,.08);
+  display:grid;grid-template-columns:96px 1fr;align-items:stretch;
+}
+.course .icon{display:grid;place-items:center;color:#fff}
+.course .icon svg{width:46px;height:46px}
+.course.kids .icon{background:linear-gradient(160deg,#5fd6e2,#21a7cf)}
+.course.adult .icon{background:linear-gradient(160deg,#3bb0e0,#1576b5)}
+.course.athlete .icon{background:linear-gradient(160deg,#1a7fb8,#0c3d5e)}
+.course .body{padding:18px 18px 20px}
+.course h3{font-size:19px;color:var(--navy);display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.course h3 small{font-family:"Noto Sans JP",sans-serif;font-size:12px;color:var(--blue);font-weight:700}
+.course p{font-size:14.5px;color:var(--muted);margin-top:6px;line-height:1.8}
+.course{position:relative}
+.course.featured{grid-template-columns:1fr;box-shadow:0 0 0 3px var(--aqua),0 12px 32px rgba(21,136,196,.22)}
+.course.featured .icon{height:150px}
+.course.featured .icon svg{width:72px;height:72px}
+.course.featured h3{font-size:23px}
+.course.featured p{font-size:16px;color:var(--ink);margin-top:10px}
+.course.featured .icon{height:170px}
+.course.featured .icon svg{width:84px;height:84px}
+.course.featured .body{padding:24px 22px 28px}
+.course.featured h3{font-size:30px;line-height:1.3}
+.course.featured h3 small{font-size:13.5px}
+.sub-title{
+  margin:34px 0 12px;font-size:14px;font-weight:700;color:var(--muted);
+  display:flex;align-items:center;gap:10px;
+}
+.sub-title::after{content:"";flex:1;height:1px;background:rgba(12,61,94,.15)}
+.course-sub{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.course.small{
+  display:grid;grid-template-columns:1fr;align-content:start;gap:10px;
+  padding:14px 14px 16px;box-shadow:0 3px 12px rgba(12,61,94,.06);
+}
+.course.small .icon{width:40px;height:40px;border-radius:12px}
+.course.small .icon svg{width:24px;height:24px}
+.course.small .body{padding:0}
+.course.small h3{font-size:15.5px;display:block;line-height:1.4}
+.course.small h3 small{display:block;font-size:11px;margin-top:2px}
+.course.small p{font-size:12.5px;line-height:1.7;margin-top:6px}
+.badge{
+  position:absolute;top:12px;left:12px;z-index:1;
+  background:#fff;color:var(--deep);font-size:12px;font-weight:700;
+  padding:3px 12px;border-radius:999px;box-shadow:0 2px 8px rgba(12,61,94,.15);
+}
+
+/* ---------- area ---------- */
+.area{background:#fff;text-align:center}
+.area .pin{
+  width:64px;height:64px;margin:0 auto 14px;border-radius:50%;
+  display:grid;place-items:center;background:var(--foam);color:var(--blue);
+}
+.area .pin svg{width:30px;height:30px}
+.area h2{margin-bottom:8px}
+.area p{color:var(--muted)}
+
+/* ---------- contact ---------- */
+.contact{
+  position:relative;overflow:hidden;color:#fff;text-align:center;
+  background:linear-gradient(180deg,#1aa0d2 0%,#0a6aa3 50%,#0c3d5e 100%);
+  padding-top:96px;padding-bottom:88px;
+}
+.contact .wave-top{position:absolute;top:-1px;left:0;width:100%;height:60px;transform:scaleY(-1)}
+.contact .label{color:#bff1f7;justify-content:center}
+.contact .label::before{background:#fff}
+.contact h2{color:#fff}
+.contact p.note{opacity:.92;font-size:15px}
+.line-btn{
+  display:flex;align-items:center;justify-content:center;gap:12px;
+  width:100%;max-width:440px;margin:30px auto 0;
+  background:var(--line);color:#fff;text-decoration:none;
+  font-size:19px;font-weight:700;padding:20px 22px;border-radius:18px;
+  box-shadow:0 10px 0 #04a045, 0 18px 30px rgba(0,30,50,.3);
+  transition:transform .12s, box-shadow .12s;
+}
+.line-btn:active{transform:translateY(6px);box-shadow:0 4px 0 #04a045,0 8px 16px rgba(0,30,50,.3)}
+.line-btn svg{width:34px;height:34px;flex:none}
+.line-btn .sub{display:block;font-size:12px;font-weight:400;opacity:.9}
+.mail{
+  margin:34px auto 0;max-width:440px;
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.3);
+  border-radius:16px;padding:16px;font-size:14px;
+}
+.mail a{display:inline-block;margin-top:4px;font-weight:700;font-size:16px;word-break:break-all;text-underline-offset:4px}
+
+footer{
+  background:var(--navy);color:rgba(255,255,255,.75);text-align:center;
+  padding:36px 20px 110px;font-size:12px;
+}
+footer .logo{width:120px;margin:0 auto 12px}
+
+/* スマホ下部の固定LINEボタン */
+.float-line{
+  position:fixed;left:16px;right:16px;bottom:14px;z-index:30;
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--line);color:#fff;text-decoration:none;font-weight:700;
+  padding:14px;border-radius:999px;box-shadow:0 10px 30px rgba(0,40,30,.3);
+  transform:translateY(140%);transition:transform .35s ease;
+}
+.float-line.show{transform:none}
+.float-line svg{width:24px;height:24px}
+
+/* ふわっと表示 */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- PC ---------- */
+@media (min-width:768px){
+  .site-header{padding:14px 32px}
+  .site-header .logo{width:96px}
+  .hero{padding:140px 48px 150px;justify-content:center}
+  .hero-logo{left:auto;right:4vw;top:50%;transform:translateY(-50%) rotate(-9deg);width:min(50vw,760px);opacity:.95}
+  .hero-text{z-index:1}
+  section{padding:100px 40px}
+  .features{grid-template-columns:1fr 1fr;gap:20px}
+  .feature{padding:30px 28px}
+  .course.featured{grid-template-columns:340px 1fr}
+  .course.featured .icon{height:auto;min-height:250px}
+  .course.featured .icon svg{width:96px;height:96px}
+  .course.featured .body{padding:40px 44px;align-self:center}
+  .course.featured h3{font-size:34px}
+  .course.featured p{font-size:17px}
+  .course-sub{gap:18px}
+  .course.small{grid-template-columns:56px 1fr;padding:20px 22px}
+  .course.small .icon{width:56px;height:56px}
+  .course.small .icon svg{width:30px;height:30px}
+  .course.small h3{font-size:18px}
+  .course.small p{font-size:14px}
+  .float-line{display:none}
+  footer{padding-bottom:40px}
+}
+@media (prefers-reduced-motion:reduce){
+  .hero::before{animation:none}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" aria-label="A.P.S. トップへ"><img class="logo" src="img/logo-navy.png" alt="A.P.S." width="1170" height="462"></a>
+  <a class="header-cta" href="#contact">お問い合わせ</a>
+</header>
+
+<main id="top">
+  <!-- 1. トップ -->
+  <section class="hero">
+    <div class="lanes" aria-hidden="true"><span></span><span></span><span></span></div>
+    <img class="logo hero-logo" src="img/logo-white.png" alt="" width="1170" height="462" aria-hidden="true">
+    <div class="hero-text">
+      <span class="eyebrow">松山市の子ども水泳教室</span>
+      <h1>泳ぐたびに、<br>昨日の自分を<br>超えていく。</h1>
+      <p class="lead">子どもから大人、トップを目指す選手まで。<br>「出来た！」を、大切にします。</p>
+      <a class="scroll-btn" href="#contact">お問い合わせはこちら
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </a>
+    </div>
+    <svg class="wave" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" d="M0 40 C 240 0, 480 70, 720 38 S 1200 0, 1440 34 V70 H0Z"/></svg>
+  </section>
+
+  <!-- 2. 私たちについて（子どもスクール A.P.S. Kids） -->
+  <section class="about" id="about">
+    <img class="logo bg-logo" src="img/logo-navy.png" alt="" width="1170" height="462" aria-hidden="true">
+    <div class="wrap">
+      <div class="about-head reveal">
+        <div class="label">ABOUT</div>
+        <p class="kids-name">松山市の子ども水泳教室 <b>A.P.S. Kids</b></p>
+        <h2>水と出会い、<br>可能性が広がる。</h2>
+        <p class="about-lead"><span class="nowrap">A.P.S. Kidsは、</span><strong><span class="nowrap">基礎をしっかり身につけて、</span><span class="nowrap">水泳を好きになる</span></strong><span class="nowrap">ための子どもスクールです。</span></p>
+      </div>
+
+      <div class="features">
+        <article class="feature reveal">
+          <span class="num">01</span>
+          <h3>少人数制で、<br>ひとりひとりに目が届く</h3>
+          <p>少人数で丁寧に指導します。できたこと、つまずいていることを見逃さず、お子様のペースで「出来た！」を積み重ねていきます。</p>
+        </article>
+
+        <article class="feature reveal">
+          <span class="num">02</span>
+          <h3>つながる順番で、<br>4泳法を。</h3>
+          <p>一つの泳ぎで止まらず、泳ぎ同士がつながる順番で身につけます。</p>
+          <ol class="steps">
+            <li><b>クロール＋背泳ぎ</b><span>一緒に進めます</span></li>
+            <li><b>バタフライ</b><span>クロールからつなげます</span></li>
+            <li><b>平泳ぎ</b><span>最後に身につけます</span></li>
+          </ol>
+          <p class="small">お子様に合った順番で、泳ぎ全体を底上げします。</p>
+        </article>
+
+        <article class="feature reveal">
+          <span class="num">03</span>
+          <h3>お友達・ご兄弟と、<br>通いやすく</h3>
+          <p>お友達やご兄弟とグループのまま、ご家庭の予定に合わせて通う日を選べます。また、月の回数は自由に選べるのでスイミングを習っているお子様の進級テスト対策も可能です。</p>
+        </article>
+
+        <article class="feature reveal">
+          <span class="num">04</span>
+          <h3>その先へ、<br>ひとつの道でつながる</h3>
+          <p>水泳を好きになったら、育成コース、そして全国大会を目指す選手コースへ。お子様の「やりたい気持ち」に合わせて、一歩ずつ進めます。</p>
+          <div class="path" aria-label="A.P.S. Kids から育成コース、選手コースへ">
+            <span>Kids</span><i aria-hidden="true">›</i><span>育成</span><i aria-hidden="true">›</i><span>選手</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. コース紹介 -->
+  <section class="courses" id="courses">
+    <div class="wrap">
+      <div class="label reveal">COURSE</div>
+      <h2 class="reveal">コース紹介</h2>
+      <div class="course-list">
+        <article class="course kids featured reveal">
+          <span class="badge">はじめての方におすすめ</span>
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="15" r="7"/><path d="M6 36c4-4 8-4 12 0s8 4 12 0 8-4 12 0"/><path d="M14 28c3-4 6-6 10-6s7 2 10 6"/></svg>
+          </div>
+          <div class="body">
+            <h3>Kids <small>幼児〜小学生</small></h3>
+            <p>水に慣れるところから、4泳法の習得まで。楽しみながら「泳げた！」を積み重ね、水を好きになる力を育てます。</p>
+          </div>
+        </article>
+      </div>
+      <p class="sub-title reveal">そのほかのコース</p>
+      <div class="course-sub">
+        <article class="course small adult reveal">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="34" cy="14" r="5"/><path d="M8 26l10-6 8 5 8-4"/><path d="M4 36c4-4 8-4 12 0s8 4 12 0 8-4 12 0"/></svg>
+          </div>
+          <div class="body">
+            <h3>大人の水泳教室 <small>はじめての方も歓迎</small></h3>
+            <p>運動不足の解消から、フォームを見直したい方まで。ご自身のペースで、長く続けられる泳ぎを身につけます。</p>
+          </div>
+        </article>
+        <article class="course small athlete reveal">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8h16v8a8 8 0 0 1-16 0z"/><path d="M16 11H9a6 6 0 0 0 7 8M32 11h7a6 6 0 0 1-7 8"/><path d="M24 24v6M17 38h14l-2-8H19z"/></svg>
+          </div>
+          <div class="body">
+            <h3>選手コース <small>大会・記録に挑戦</small></h3>
+            <p>大会出場と自己ベスト更新を目指すコース。目標に向けて、仲間と高め合いながら本気で記録に挑みます。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 活動地域 -->
+  <section class="area" id="area">
+    <div class="wrap reveal">
+      <div class="pin" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg>
+      </div>
+      <div class="label" style="justify-content:center">AREA</div>
+      <h2>愛媛県松山市を中心に活動</h2>
+      <p>松山市内の公共プールで活動しています。</p>
+    </div>
+  </section>
+
+  <!-- 5. お問い合わせ -->
+  <section class="contact" id="contact">
+    <svg class="wave-top" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" d="M0 30 C 240 0, 480 60, 720 28 S 1200 0, 1440 26 V60 H0Z"/></svg>
+    <div class="wrap reveal">
+      <div class="label">CONTACT</div>
+      <h2>お気軽に<br>お問い合わせください</h2>
+      <p class="note">お子様の体験やコースのご相談など、<br>LINEからいつでもどうぞ。</p>
+
+      <a class="line-btn" href="https://lin.ee/pJ9878e" target="_blank" rel="noopener">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><path fill="#fff" d="M20 5C10.6 5 3 11.2 3 18.8c0 6.8 6 12.5 14.2 13.6.6.1 1.3.4 1.5.9.2.4.1 1.1 0 1.5l-.2 1.4c-.1.4-.3 1.6 1.4.9 1.7-.7 9.2-5.4 12.5-9.3C34.8 25.2 37 22.2 37 18.8 37 11.2 29.4 5 20 5z"/><text x="20" y="22.5" text-anchor="middle" font-size="8.5" font-weight="700" font-family="Arial,sans-serif" fill="#06c755">LINE</text></svg>
+        <span>LINEで問い合わせる<span class="sub">LINE公式アカウントを友だち追加</span></span>
+      </a>
+
+      <div class="mail">
+        メールでのお問い合わせはこちら<br>
+        <a href="mailto:swim.team.aps@gmail.com">swim.team.aps@gmail.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <img class="logo" src="img/logo-white.png" alt="A.P.S." width="1170" height="462">
+  <p>A.P.S.｜愛媛県松山市</p>
+  <p style="margin-top:8px;opacity:.6">© A.P.S.</p>
+</footer>
+
+<a class="float-line" id="floatLine" href="https://lin.ee/pJ9878e" target="_blank" rel="noopener">
+  <svg viewBox="0 0 40 40" aria-hidden="true"><path fill="#fff" d="M20 5C10.6 5 3 11.2 3 18.8c0 6.8 6 12.5 14.2 13.6.6.1 1.3.4 1.5.9.2.4.1 1.1 0 1.5l-.2 1.4c-.1.4-.3 1.6 1.4.9 1.7-.7 9.2-5.4 12.5-9.3C34.8 25.2 37 22.2 37 18.8 37 11.2 29.4 5 20 5z"/></svg>
+  LINEで問い合わせる
+</a>
+
+<script>
+// ふわっと表示
+const io = new IntersectionObserver((es)=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// トップを過ぎたら下部にLINEボタン（お問い合わせ欄が見えている間は隠す）
+const fl = document.getElementById('floatLine');
+const hero = document.querySelector('.hero'), contact = document.getElementById('contact');
+let pastHero=false, atContact=false;
+const upd=()=>fl.classList.toggle('show', pastHero && !atContact);
+new IntersectionObserver(([e])=>{pastHero=!e.isIntersecting;upd();},{threshold:.1}).observe(hero);
+new IntersectionObserver(([e])=>{atContact=e.isIntersecting;upd();},{threshold:.05}).observe(contact);
+</script>
+</body>
+</html>
